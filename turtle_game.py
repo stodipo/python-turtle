@@ -6,18 +6,16 @@ my_turtle = turtle.Turtle()
 def square(length, angle):
 	#This part of the code draws the square
 	my_turtle.forward(length)
-	my_turtle.left(angle)
+	my_turtle.right(angle)
 	my_turtle.forward(length)
-	my_turtle.left(angle)
+	my_turtle.right(angle)
 	my_turtle.forward(length)
-	my_turtle.left(angle)
+	my_turtle.right(angle)
 	my_turtle.forward(length)
-	my_turtle.left(angle)
+	my_turtle.right(angle)
+	my_turtle.forward(length)
 
-#Adding multiple arguements to functions
-square(250, 90)
-square(200, 90)
-square(150, 90)
-square(100, 90)
-square(50, 90)
-square(25, 90)
+#a for loop 
+for i in range (4):
+	#Adding multiple arguements to functionse
+	square(50, 45)
