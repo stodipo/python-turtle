@@ -4,6 +4,7 @@ my_project = turtle.Turtle()
 
 #change speed here
 my_project.speed(10)
+my_project.color('blue')
 
 def drawsquare():
 	for i in range(4):
